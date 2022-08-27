@@ -11,4 +11,8 @@ nav a:hover{
 
 #cover{
 	height: 90vh;
+	background-image: url("../images/images (3).jpeg");
+	background-size: cover;
+	padding-top: 300px;
+
 }
