@@ -1,16 +1,27 @@
-nav a{
+.link{
 	margin: 1em;
 	text-decoration: none;
-	color: #fff;
+	color: #aaa;
 	transition: 500ms;
 }
 
-nav a:hover{
-	color: #aaa;
+.link:hover{
+	color: #fff;
+}
+
+.active{
+	color: white;
+}
+
+.active:after{
+	content: "";
+	display: block;
+	border: 2px solid white;
+	margin-top: 8px;
 }
 
 #cover{
-	height: 90vh;
+	height: 600px;
 	background-image: url("../images/images (3).jpeg");
 	background-size: cover;
 	padding-top: 300px;
