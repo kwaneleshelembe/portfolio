@@ -4,3 +4,11 @@ nav a{
 	color: #fff;
 	transition: 500ms;
 }
+
+nav a:hover{
+	color: #aaa;
+}
+
+#cover{
+	height: 90vh;
+}
