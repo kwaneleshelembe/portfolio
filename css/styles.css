@@ -1,14 +1,6 @@
-#app-header{
-	height: 100vh;
-	margin: 0!important;
-}
-
-.list-unstyled a{
-	cursor: pointer;
+nav a{
+	margin: 1em;
+	text-decoration: none;
+	color: #fff;
 	transition: 500ms;
-	color: white!important;
-}
-
-.list-unstyled a:hover{
-	color: var(--bs-warning)!important;
 }
