@@ -49,3 +49,11 @@
 .project:hover{
 	color: #eee;
 }
+
+footer{
+	background: #000;
+}
+
+#email-link{
+	text-decoration: none;
+}
