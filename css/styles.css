@@ -5,6 +5,13 @@
 	transition: 500ms;
 }
 
+.link:after{
+	content: "";
+	display: block;
+	border: 2px solid transparent;
+	transition: 500ms;
+}
+
 .link:hover{
 	color: #fff;
 }
@@ -14,9 +21,7 @@
 }
 
 .active:after{
-	content: "";
-	display: block;
-	border: 2px solid white;
+	border-color: white;
 	margin-top: 8px;
 }
 
