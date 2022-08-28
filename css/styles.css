@@ -4,7 +4,6 @@
 	color: #aaa;
 	transition: 500ms;
 }
-
 .link:after{
 	content: "";
 	display: block;
@@ -35,4 +34,18 @@
 
 .about-link{
 	text-decoration: none;
+}
+
+.project{
+	height: 300px;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	transition: 500ms;
+}
+
+.project:hover{
+	color: #eee;
 }
