@@ -31,12 +31,22 @@ nav{
 }
 
 #cover{
-	height: 600px;
+	padding-top: 300px;
+	height: 380px;
+	margin-top: 6.5em;
+	margin-bottom: 15em;
+	position: relative;
+}
+
+#cover:after{
+	content: "";
+	position: absolute;
+	height: 160%;
+	z-index: -1;
+	inset: 0;
+	opacity: 0.7;
 	background-image: url("../images/images (3).jpeg");
 	background-size: cover;
-	padding-top: 300px;
-	margin-top: 6.5em;
-	margin-bottom: 6.5em;
 }
 
 .about-link{
