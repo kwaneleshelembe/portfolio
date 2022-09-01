@@ -1,8 +1,14 @@
+nav{
+	background: black!important;
+	color: #eee!important;
+	border-bottom: 2px solid white;
+}
+
 .link{
-	margin: 1em;
 	text-decoration: none;
-	color: #aaa;
+	color: #aaa!important;
 	transition: 500ms;
+	margin-right: 2em;
 }
 .link:after{
 	content: "";
@@ -16,7 +22,7 @@
 }
 
 .active{
-	color: white;
+	color: white!important;
 }
 
 .active:after{
@@ -29,7 +35,8 @@
 	background-image: url("../images/images (3).jpeg");
 	background-size: cover;
 	padding-top: 300px;
-
+	margin-top: 6.5em;
+	margin-bottom: 6.5em;
 }
 
 .about-link{
