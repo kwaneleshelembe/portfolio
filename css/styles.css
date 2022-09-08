@@ -53,8 +53,18 @@ nav{
 	text-decoration: none;
 }
 
-img{
+.project{
+
+}
+
+.project img{
+	opacity: 0.8;
 	max-width: 100%;
+}
+
+.project h4{
+	position: relative;
+	bottom: 100px;
 }
 
 footer{
