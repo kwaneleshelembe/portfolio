@@ -1,15 +1,25 @@
 nav{
-	background: black!important;
+	background: transparent!important;
 	color: #eee!important;
 	border-bottom: 2px solid white;
+	transition: background 500ms;
+}
+
+.black-nav{
+	background: black!important;
 }
 
 .link{
 	text-decoration: none;
-	color: #aaa!important;
+	color: #fff!important;
 	transition: 500ms;
 	margin-right: 2em;
 }
+
+.link.light-link{
+	color: #aaa!important;
+}
+
 .link:after{
 	content: "";
 	display: block;
