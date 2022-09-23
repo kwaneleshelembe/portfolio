@@ -1,7 +1,12 @@
 nav{
-	background: black!important;
+	background: transparent;
 	color: #eee!important;
 	border-bottom: 2px solid white;
+	transition: 500ms;
+}
+
+.black-nav{
+	background: black!important;
 }
 
 .link{
