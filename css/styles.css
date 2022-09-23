@@ -1,8 +1,8 @@
 nav{
-	background: transparent!important;
+	background: transparent;
 	color: #eee!important;
 	border-bottom: 2px solid white;
-	transition: background 500ms;
+	transition: 500ms;
 }
 
 .black-nav{
