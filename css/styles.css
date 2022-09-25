@@ -7,6 +7,7 @@ nav{
 
 .black-nav{
 	background: black!important;
+	opacity: 0.9;
 }
 
 .link{
@@ -45,7 +46,8 @@ nav{
 	height: 100vh;
 	position: relative;
 	isolation: isolate;
-	background: black;
+	background: linear-gradient(rgb(97,68,98),rgb(46, 55, 102));
+	text-shadow: black 2px 2px 3px ;
 }
 
 #cover:after{
