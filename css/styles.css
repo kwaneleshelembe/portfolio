@@ -66,18 +66,18 @@ nav{
 	text-decoration: none;
 }
 
-.project{
-
+.card{
+	transition: 500ms;
 }
 
-.project img{
-	opacity: 0.8;
-	max-width: 100%;
+.hidden-left{
+	opacity: 0;
+	transform: translateX(-20px);
 }
 
-.project h4{
-	position: relative;
-	bottom: 100px;
+.show{
+	opacity: 1;
+	transform: translateX(0px);
 }
 
 footer{

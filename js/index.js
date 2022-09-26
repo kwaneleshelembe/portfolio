@@ -26,3 +26,26 @@ const coverObserver=new IntersectionObserver((entries)=>{
 },options);
 
 coverObserver.observe(cover);
+
+
+const hiddenCards=document.querySelectorAll(".hidden-left");
+let transitionSpeed=500;
+
+hiddenCards.forEach(card=>{
+	card.style.transition=`${transitionSpeed}ms`;
+	transitionSpeed+=500;
+})
+
+
+const projectObserver=new IntersectionObserver((entries)=>{
+	entries.forEach(entry=>{
+		console.log(entry)
+		if(entry.isIntersecting){
+			entry.target.classList.remove("hidden-left");
+		}
+	})
+},{rootMargin:"-200px 0px 0px 0px"});
+
+hiddenCards.forEach(card=>{
+	projectObserver.observe(card);
+})
