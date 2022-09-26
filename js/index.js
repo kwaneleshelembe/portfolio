@@ -44,7 +44,7 @@ const projectObserver=new IntersectionObserver((entries)=>{
 			entry.target.classList.remove("hidden-left");
 		}
 	})
-},{rootMargin:"-200px 0px 0px 0px"});
+},{rootMargin:"-250px 0px 0px 0px"});
 
 hiddenCards.forEach(card=>{
 	projectObserver.observe(card);
