@@ -29,7 +29,7 @@ coverObserver.observe(cover);
 
 
 const hiddenCards=document.querySelectorAll(".hidden-left");
-let transitionSpeed=500;
+let transitionSpeed=2000;
 
 hiddenCards.forEach(card=>{
 	card.style.transition=`${transitionSpeed}ms`;
@@ -44,7 +44,7 @@ const projectObserver=new IntersectionObserver((entries)=>{
 			entry.target.classList.remove("hidden-left");
 		}
 	})
-},{rootMargin:"-250px 0px 0px 0px"});
+},{rootMargin:"500px 0px 0px 0px"});
 
 hiddenCards.forEach(card=>{
 	projectObserver.observe(card);
