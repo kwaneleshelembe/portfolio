@@ -15,6 +15,7 @@ nav{
 	color: #fff!important;
 	transition: 500ms;
 	margin-right: 2em;
+	text-shadow: black 2px 2px 2px;
 }
 
 .link.light-link{
@@ -45,40 +46,32 @@ nav{
 	padding-top: 250px;
 	height: 100vh;
 	position: relative;
-	isolation: isolate;
-	background: linear-gradient(rgb(97,68,98),rgb(46, 55, 102));
+/*	isolation: isolate;*/
+	background-image: url("../images/R (1).jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	/*background: linear-gradient(rgb(97,68,98),rgb(46, 55, 102));*/
 	text-shadow: black 2px 2px 3px ;
 }
 
-#cover:after{
+/*#cover:after{
 	content: "";
 	position: absolute;
 	height: 100%;
 	z-index: -1;
 	inset: 0;
 	opacity: 0.6;
-	background-image: url("../images/562581-winter-nature-snow-beautiful-lovely-landscape-landscapes.jpg");
+	background-image: url("../images/R (1).jpg");
 	background-size: cover;
 	background-attachment: fixed;
-}
-
-#my-photo{
-	width: 70%;
-	height: 70%;
-	margin: 0 auto;
-	border-radius: 1em;
-	overflow: hidden;
-}
-#my-photo img{
-	width: 100%;
-}	
-
+}*/
 .about-link{
 	text-decoration: none;
 }
 
 .card{
 	transition: 500ms;
+	overflow: hidden;
 }
 
 .hidden-left{
@@ -93,8 +86,4 @@ nav{
 
 footer{
 	background: #000;
-}
-
-#email-link{
-	text-decoration: none;
 }
