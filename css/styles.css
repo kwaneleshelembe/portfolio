@@ -43,12 +43,15 @@ nav{
 }
 
 #cover{
-	padding-top: 250px;
 	height: 100vh;
 	position: relative;
 	isolation: isolate;
 	background: linear-gradient(rgb(97,68,98),rgb(46, 55, 102));
 	text-shadow: black 2px 2px 3px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #cover:after{
