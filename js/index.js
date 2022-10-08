@@ -39,7 +39,6 @@ hiddenCards.forEach(card=>{
 
 const projectObserver=new IntersectionObserver((entries)=>{
 	entries.forEach(entry=>{
-		console.log(entry)
 		if(entry.isIntersecting){
 			entry.target.classList.remove("hidden-left");
 		}
