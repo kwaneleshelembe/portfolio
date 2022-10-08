@@ -62,6 +62,14 @@ nav{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+.heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35vh;
+}
+
 .about-link{
 	text-decoration: none;
 }
