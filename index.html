@@ -65,8 +65,8 @@
 	</header>
 	<main class="container">
 		<section id="about-me" class="py-5">
-			<div class="container">
-				<h4 class="text-center display-4 heading">About Me .
+			<div class="container heading">
+				<h4 class="text-center display-4 ">About Me .
 					<!-- user svg -->
 					<i class="fa fa-user"></i>
 				</h4>
@@ -82,10 +82,10 @@
 		</section>
 		<hr/>
 		<section id="skills" class="py-5">
-			<h4 class="text-center display-4 heading">My Skills .
-				<!-- skills svg -->
-				<i class="fa fa-cogs fa-lg"></i>
-			</h4>
+			<div class="heading">
+				<h4 class="text-center display-4">My Skills . <i class="fa fa-cogs fa-lg"></i></h4>
+			</div>
+			
 			<div id="skils-container" class="container p-2">
 				<div class="row text-center">
 					<p class="col-md-5 offset-md-1 alert alert-primary"><i class="fa-brands fa-html5 fa-xl"></i> HTML and HTML5</p>
@@ -101,10 +101,9 @@
 		</section>
 		<hr/>
 		<section id="projects" class="py-5">
-			<h4 class="text-center display-4 heading">My Projects .
-				<!-- projects svg -->
-				<i class="fa fa-chess-rook"></i>
-			</h4>
+			<div class="heading">
+				<h4 class="text-center display-4">My Projects . <i class="fa fa-chess-rook"></i></h4>
+			</div>
 			<div id="projects-container" class="container">
 				<div class="row row-cols-1 row-cols-md-3">
 					<div class="card mb-2 p-0 hidden-left">
@@ -149,13 +148,10 @@
 		</section>
 		<hr>
 		<section id="contacts" class="py-5">
-			<div class="text-center heading">
-				<div>
-					<h4 class="display-4">Contact me <i class="fa fa-phone"></i></h4>
-					<!-- contact svg -->
-					
-					<br>
-					<p class="text-muted fs-5 m-2">For hiring, creating websites and collaboration.</p>
+			<div class="text-center ">
+				<div class="heading">
+					<h4 class="display-4">Contact me <i class="fa fa-question"></i></h4>
+					<p class="text-muted fs-5 m-2 text-start">For hiring, creating websites and collaboration.</p>
 				</div>
 			</div>
 			
@@ -163,14 +159,30 @@
 				<div class="container pb-5">
 					<div class="row text-center">
 						<div>
-							<h5>Phone Number</h5><p class="font-monospace">084 347 6455</p>
+							<!-- <h5>Phone Number</h5><p class="font-monospace">084 347 6455</p> -->
+
 						</div>
-						<div class="p-3">
+						<div class="p-3 border">
+							<a href="tel:0843476455" class="btn btn-outline-dark btn-lg">Call me <i class="fa fa-phone"></i></a>
+							<span class="mx-3 fw-bold">OR</span> 
 							<a class="btn btn-dark btn-lg" title="kwaneleshelembe841@gmail.com" href="mailto:kwaneleshelembe841@gmail.com">Email me <i class="fa fa-paper-plane"></i></a>
 
 						</div>
 					</div>
 				</div>
+			</div>
+
+			<div class="row  justify-content-center">
+				<h4 class="p-3 text-center">Message Me</h4>
+				<form class="col-10" method="post" action="https://formsubmit.co/kwaneleshelembe841@gmail.com">
+					<input type="text" name="name" class="form-control my-2" placeholder="Name" required>
+					<input type="text" name="subject" class="form-control my-2" placeholder="Subject" required>
+					<input type="email" name="email" class="form-control my-2" placeholder="Email Address" required>
+					<textarea name="message" rows="10" class="form-control my-2" placeholder="Your Message" required></textarea>
+					<div>
+						<button type="submit" class="btn btn-outline-dark btn-lg"><i class="fa fa-message"></i> Send Message </button>
+					</div>
+				</form>
 			</div>
 		</section>
 	</main>
@@ -178,6 +190,11 @@
 		<p class="text-center">Made by Kwanele Shelembe.</p>
 		<p class="text-center">made with ❤🧡❤💛</p>
 		<p class="text-center">From Pietermaritzburg</p>
+		<div class="text-light">
+			<p class="text-center">my email kwaneleshelembe841@gmail.com</p>
+			<p class="text-center">my number 084 347 6455</p>
+		</div>
+		
 
 		<small>Copyright &copy 2022 Kwanele Shelembe</small>
 	</footer>
